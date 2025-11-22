@@ -1,0 +1,19 @@
+{
+  "name": "ffmpeg-concat-api",
+  "version": "1.0.0",
+  "description": "FFmpeg API for video concatenation on Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "axios": "^1.6.0",
+    "uuid": "^9.0.1",
+    "cors": "^2.8.5"
+  }
+}
